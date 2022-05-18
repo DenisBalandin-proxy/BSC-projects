@@ -2,7 +2,7 @@
 //  LayoutForList.swift
 //  NotesAPP
 //
-//  Created by Jorel on 02/05/2022.
+//  Creted by Jorel on 02/05/2022.
 //  Copyright © 2022 Jorel. All rights reserved.
 //
 
