@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6DFB82328357C0A00889E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB82228357C0A00889E6B /* AppDelegate.swift */; };
-		D6DFB82528357C0A00889E6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB82428357C0A00889E6B /* SceneDelegate.swift */; };
-		D6DFB82728357C0A00889E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB82628357C0A00889E6B /* ViewController.swift */; };
-		D6DFB82A28357C0A00889E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB82828357C0A00889E6B /* Main.storyboard */; };
 		D6DFB82C28357C0D00889E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB82B28357C0D00889E6B /* Assets.xcassets */; };
 		D6DFB82F28357C0D00889E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB82D28357C0D00889E6B /* LaunchScreen.storyboard */; };
+		D6DFB83728357C5B00889E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB83628357C5B00889E6B /* AppDelegate.swift */; };
+		D6DFB83928357C6100889E6B /* Lauout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB83828357C6100889E6B /* Lauout.swift */; };
+		D6DFB83B28357C6800889E6B /* LayoutForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB83A28357C6700889E6B /* LayoutForList.swift */; };
+		D6DFB83D28357C6D00889E6B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB83C28357C6D00889E6B /* ListViewController.swift */; };
+		D6DFB83F28357C7300889E6B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB83E28357C7200889E6B /* Model.swift */; };
+		D6DFB84128357C7800889E6B /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB84028357C7800889E6B /* NoteViewController.swift */; };
+		D6DFB84328357C7F00889E6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB84228357C7F00889E6B /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6DFB81F28357C0A00889E6B /* Lesson3NewVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson3NewVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DFB82228357C0A00889E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6DFB82428357C0A00889E6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6DFB82628357C0A00889E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6DFB82928357C0A00889E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6DFB82B28357C0D00889E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DFB82E28357C0D00889E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DFB83028357C0D00889E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB83628357C5B00889E6B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6DFB83828357C6100889E6B /* Lauout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lauout.swift; sourceTree = "<group>"; };
+		D6DFB83A28357C6700889E6B /* LayoutForList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutForList.swift; sourceTree = "<group>"; };
+		D6DFB83C28357C6D00889E6B /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D6DFB83E28357C7200889E6B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D6DFB84028357C7800889E6B /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		D6DFB84228357C7F00889E6B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,15 @@
 		D6DFB82128357C0A00889E6B /* Lesson3NewVersion */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFB82228357C0A00889E6B /* AppDelegate.swift */,
-				D6DFB82428357C0A00889E6B /* SceneDelegate.swift */,
-				D6DFB82628357C0A00889E6B /* ViewController.swift */,
-				D6DFB82828357C0A00889E6B /* Main.storyboard */,
+				D6DFB83628357C5B00889E6B /* AppDelegate.swift */,
 				D6DFB82B28357C0D00889E6B /* Assets.xcassets */,
+				D6DFB83828357C6100889E6B /* Lauout.swift */,
 				D6DFB82D28357C0D00889E6B /* LaunchScreen.storyboard */,
+				D6DFB83E28357C7200889E6B /* Model.swift */,
+				D6DFB83C28357C6D00889E6B /* ListViewController.swift */,
+				D6DFB84028357C7800889E6B /* NoteViewController.swift */,
+				D6DFB83A28357C6700889E6B /* LayoutForList.swift */,
+				D6DFB84228357C7F00889E6B /* SceneDelegate.swift */,
 				D6DFB83028357C0D00889E6B /* Info.plist */,
 			);
 			path = Lesson3NewVersion;
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					D6DFB81E28357C0A00889E6B = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -127,7 +137,6 @@
 			files = (
 				D6DFB82F28357C0D00889E6B /* LaunchScreen.storyboard in Resources */,
 				D6DFB82C28357C0D00889E6B /* Assets.xcassets in Resources */,
-				D6DFB82A28357C0A00889E6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +147,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DFB82728357C0A00889E6B /* ViewController.swift in Sources */,
-				D6DFB82328357C0A00889E6B /* AppDelegate.swift in Sources */,
-				D6DFB82528357C0A00889E6B /* SceneDelegate.swift in Sources */,
+				D6DFB83F28357C7300889E6B /* Model.swift in Sources */,
+				D6DFB84328357C7F00889E6B /* SceneDelegate.swift in Sources */,
+				D6DFB83728357C5B00889E6B /* AppDelegate.swift in Sources */,
+				D6DFB83B28357C6800889E6B /* LayoutForList.swift in Sources */,
+				D6DFB83D28357C6D00889E6B /* ListViewController.swift in Sources */,
+				D6DFB84128357C7800889E6B /* NoteViewController.swift in Sources */,
+				D6DFB83928357C6100889E6B /* Lauout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6DFB82828357C0A00889E6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6DFB82928357C0A00889E6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6DFB82D28357C0D00889E6B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R79LXPU844;
 				INFOPLIST_FILE = Lesson3NewVersion/Info.plist;
@@ -293,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Balandin.Lesson3NewVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R79LXPU844;
 				INFOPLIST_FILE = Lesson3NewVersion/Info.plist;
