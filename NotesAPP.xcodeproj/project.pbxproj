@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D618730E28049AA900D958A4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D618730D28049AA900D958A4 /* ListViewController.swift */; };
 		D655248827F424AC00A01D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655248727F424AC00A01D7D /* AppDelegate.swift */; };
 		D655248A27F424AC00A01D7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655248927F424AC00A01D7D /* SceneDelegate.swift */; };
-		D655248C27F424AC00A01D7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655248B27F424AC00A01D7D /* ViewController.swift */; };
 		D655249127F424AE00A01D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D655249027F424AE00A01D7D /* Assets.xcassets */; };
 		D655249427F424AE00A01D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D655249227F424AE00A01D7D /* LaunchScreen.storyboard */; };
+		D6DE9EF1283568AA00BC51C1 /* LayoutForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DE9EF0283568AA00BC51C1 /* LayoutForList.swift */; };
+		D6DE9EF5283569A800BC51C1 /* Lauout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DE9EF4283569A800BC51C1 /* Lauout.swift */; };
+		D6DE9EF7283569B200BC51C1 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DE9EF6283569B200BC51C1 /* NoteViewController.swift */; };
+		D6DE9EF9283569BC00BC51C1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DE9EF8283569BC00BC51C1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D618730D28049AA900D958A4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D655248427F424AC00A01D7D /* NotesAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D655248727F424AC00A01D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D655248927F424AC00A01D7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D655248B27F424AC00A01D7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D655249027F424AE00A01D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D655249327F424AE00A01D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D655249527F424AE00A01D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DE9EF0283568AA00BC51C1 /* LayoutForList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutForList.swift; path = "../../CODE/LESSON 3 GOOD VER/NotesAPP/LayoutForList.swift"; sourceTree = "<group>"; };
+		D6DE9EF4283569A800BC51C1 /* Lauout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lauout.swift; sourceTree = "<group>"; };
+		D6DE9EF6283569B200BC51C1 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		D6DE9EF8283569BC00BC51C1 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		D655248627F424AC00A01D7D /* NotesAPP */ = {
 			isa = PBXGroup;
 			children = (
+				D618730D28049AA900D958A4 /* ListViewController.swift */,
 				D655248727F424AC00A01D7D /* AppDelegate.swift */,
 				D655248927F424AC00A01D7D /* SceneDelegate.swift */,
-				D655248B27F424AC00A01D7D /* ViewController.swift */,
+				D6DE9EF0283568AA00BC51C1 /* LayoutForList.swift */,
+				D6DE9EF8283569BC00BC51C1 /* Model.swift */,
+				D6DE9EF6283569B200BC51C1 /* NoteViewController.swift */,
+				D6DE9EF4283569A800BC51C1 /* Lauout.swift */,
 				D655249027F424AE00A01D7D /* Assets.xcassets */,
 				D655249227F424AE00A01D7D /* LaunchScreen.storyboard */,
 				D655249527F424AE00A01D7D /* Info.plist */,
@@ -147,7 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:\"\nexport PATH+=~/\nexport PATH+=\"portable_swiftlint\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "#export PATH=\"$PATH:\"\n#export PATH+=~/\n#export PATH+=\"portable_swiftlint\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -156,9 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D655248C27F424AC00A01D7D /* ViewController.swift in Sources */,
+				D6DE9EF7283569B200BC51C1 /* NoteViewController.swift in Sources */,
+				D6DE9EF5283569A800BC51C1 /* Lauout.swift in Sources */,
 				D655248827F424AC00A01D7D /* AppDelegate.swift in Sources */,
+				D618730E28049AA900D958A4 /* ListViewController.swift in Sources */,
+				D6DE9EF1283568AA00BC51C1 /* LayoutForList.swift in Sources */,
 				D655248A27F424AC00A01D7D /* SceneDelegate.swift in Sources */,
+				D6DE9EF9283569BC00BC51C1 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
