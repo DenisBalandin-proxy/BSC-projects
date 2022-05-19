@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D655248827F424AC00A01D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655248727F424AC00A01D7D /* AppDelegate.swift */; };
-		D655248A27F424AC00A01D7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655248927F424AC00A01D7D /* SceneDelegate.swift */; };
-		D655248C27F424AC00A01D7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655248B27F424AC00A01D7D /* ViewController.swift */; };
-		D655248F27F424AC00A01D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D655248D27F424AC00A01D7D /* Main.storyboard */; };
 		D655249127F424AE00A01D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D655249027F424AE00A01D7D /* Assets.xcassets */; };
 		D655249427F424AE00A01D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D655249227F424AE00A01D7D /* LaunchScreen.storyboard */; };
+		D6C53E80283635D10001A26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E7F283635D10001A26A /* AppDelegate.swift */; };
+		D6C53E82283635F10001A26A /* Lauout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E81283635F10001A26A /* Lauout.swift */; };
+		D6C53E84283635FA0001A26A /* LayoutForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E83283635FA0001A26A /* LayoutForList.swift */; };
+		D6C53E86283636030001A26A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E85283636030001A26A /* ListViewController.swift */; };
+		D6C53E882836360A0001A26A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E872836360A0001A26A /* Model.swift */; };
+		D6C53E8A283636110001A26A /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E89283636110001A26A /* NoteViewController.swift */; };
+		D6C53E8C283636190001A26A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E8B283636190001A26A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D655248427F424AC00A01D7D /* NotesAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D655248727F424AC00A01D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D655248927F424AC00A01D7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D655248B27F424AC00A01D7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D655248E27F424AC00A01D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D655249027F424AE00A01D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D655249327F424AE00A01D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D655249527F424AE00A01D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C53E7F283635D10001A26A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6C53E81283635F10001A26A /* Lauout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lauout.swift; sourceTree = "<group>"; };
+		D6C53E83283635FA0001A26A /* LayoutForList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutForList.swift; sourceTree = "<group>"; };
+		D6C53E85283636030001A26A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D6C53E872836360A0001A26A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D6C53E89283636110001A26A /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		D6C53E8B283636190001A26A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,14 @@
 		D655248627F424AC00A01D7D /* NotesAPP */ = {
 			isa = PBXGroup;
 			children = (
-				D655248727F424AC00A01D7D /* AppDelegate.swift */,
-				D655248927F424AC00A01D7D /* SceneDelegate.swift */,
-				D655248B27F424AC00A01D7D /* ViewController.swift */,
-				D655248D27F424AC00A01D7D /* Main.storyboard */,
 				D655249027F424AE00A01D7D /* Assets.xcassets */,
+				D6C53E7F283635D10001A26A /* AppDelegate.swift */,
+				D6C53E81283635F10001A26A /* Lauout.swift */,
+				D6C53E83283635FA0001A26A /* LayoutForList.swift */,
+				D6C53E872836360A0001A26A /* Model.swift */,
+				D6C53E89283636110001A26A /* NoteViewController.swift */,
+				D6C53E85283636030001A26A /* ListViewController.swift */,
+				D6C53E8B283636190001A26A /* SceneDelegate.swift */,
 				D655249227F424AE00A01D7D /* LaunchScreen.storyboard */,
 				D655249527F424AE00A01D7D /* Info.plist */,
 			);
@@ -100,6 +109,7 @@
 				TargetAttributes = {
 					D655248327F424AC00A01D7D = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -128,7 +138,6 @@
 			files = (
 				D655249427F424AE00A01D7D /* LaunchScreen.storyboard in Resources */,
 				D655249127F424AE00A01D7D /* Assets.xcassets in Resources */,
-				D655248F27F424AC00A01D7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +160,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"$PATH:\"\nexport PATH+=~/\nexport PATH+=\"portable_swiftlint\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "#export PATH=\"$PATH:\"\n#export PATH+=~/\n#export PATH+=\"portable_swiftlint\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -160,23 +169,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D655248C27F424AC00A01D7D /* ViewController.swift in Sources */,
-				D655248827F424AC00A01D7D /* AppDelegate.swift in Sources */,
-				D655248A27F424AC00A01D7D /* SceneDelegate.swift in Sources */,
+				D6C53E882836360A0001A26A /* Model.swift in Sources */,
+				D6C53E8C283636190001A26A /* SceneDelegate.swift in Sources */,
+				D6C53E80283635D10001A26A /* AppDelegate.swift in Sources */,
+				D6C53E84283635FA0001A26A /* LayoutForList.swift in Sources */,
+				D6C53E86283636030001A26A /* ListViewController.swift in Sources */,
+				D6C53E8A283636110001A26A /* NoteViewController.swift in Sources */,
+				D6C53E82283635F10001A26A /* Lauout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D655248D27F424AC00A01D7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D655248E27F424AC00A01D7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D655249227F424AE00A01D7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -306,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotesAPP/Info.plist;
@@ -315,6 +321,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Balandin.NotesAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotesAPP/Info.plist;
