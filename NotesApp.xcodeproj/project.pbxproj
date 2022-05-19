@@ -13,6 +13,7 @@
 		D6C53E71283630FC0001A26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C53E6F283630FC0001A26A /* Main.storyboard */; };
 		D6C53E73283630FD0001A26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C53E72283630FD0001A26A /* Assets.xcassets */; };
 		D6C53E76283630FD0001A26A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C53E74283630FD0001A26A /* LaunchScreen.storyboard */; };
+		D6C53E7E283631F60001A26A /* ErViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E7D283631F60001A26A /* ErViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6C53E72283630FD0001A26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C53E75283630FD0001A26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C53E77283630FD0001A26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C53E7D283631F60001A26A /* ErViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErViewController.swift; path = NotesAPP/ErViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D6C53E69283630FC0001A26A /* AppDelegate.swift */,
 				D6C53E6B283630FC0001A26A /* SceneDelegate.swift */,
 				D6C53E6D283630FC0001A26A /* ViewController.swift */,
+				D6C53E7D283631F60001A26A /* ErViewController.swift */,
 				D6C53E6F283630FC0001A26A /* Main.storyboard */,
 				D6C53E72283630FD0001A26A /* Assets.xcassets */,
 				D6C53E74283630FD0001A26A /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				D6C53E6E283630FC0001A26A /* ViewController.swift in Sources */,
 				D6C53E6A283630FC0001A26A /* AppDelegate.swift in Sources */,
 				D6C53E6C283630FC0001A26A /* SceneDelegate.swift in Sources */,
+				D6C53E7E283631F60001A26A /* ErViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
