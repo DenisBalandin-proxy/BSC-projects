@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		D6146DC22836267700E46699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DC12836267700E46699 /* AppDelegate.swift */; };
 		D6146DC42836267700E46699 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DC32836267700E46699 /* SceneDelegate.swift */; };
-		D6146DC62836267700E46699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DC52836267700E46699 /* ViewController.swift */; };
-		D6146DC92836267700E46699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6146DC72836267700E46699 /* Main.storyboard */; };
+		D6146DC62836267700E46699 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DC52836267700E46699 /* NoteViewController.swift */; };
 		D6146DCB2836267800E46699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6146DCA2836267800E46699 /* Assets.xcassets */; };
 		D6146DCE2836267800E46699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6146DCC2836267800E46699 /* LaunchScreen.storyboard */; };
+		D6146DD62836277300E46699 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DD52836277300E46699 /* ListViewController.swift */; };
+		D6146DD8283627A000E46699 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DD72836279F00E46699 /* Layout.swift */; };
+		D6146DDA283627CB00E46699 /* LayoutForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DD9283627CB00E46699 /* LayoutForList.swift */; };
+		D6146DDC2836284100E46699 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6146DDB2836284100E46699 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6146DBE2836267700E46699 /* NotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6146DC12836267700E46699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6146DC32836267700E46699 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6146DC52836267700E46699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6146DC82836267700E46699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6146DC52836267700E46699 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		D6146DCA2836267800E46699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6146DCD2836267800E46699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6146DCF2836267800E46699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6146DD52836277300E46699 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D6146DD72836279F00E46699 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		D6146DD9283627CB00E46699 /* LayoutForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutForList.swift; sourceTree = "<group>"; };
+		D6146DDB2836284100E46699 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				D6146DC12836267700E46699 /* AppDelegate.swift */,
+				D6146DD52836277300E46699 /* ListViewController.swift */,
+				D6146DD72836279F00E46699 /* Layout.swift */,
+				D6146DD9283627CB00E46699 /* LayoutForList.swift */,
+				D6146DDB2836284100E46699 /* Model.swift */,
 				D6146DC32836267700E46699 /* SceneDelegate.swift */,
-				D6146DC52836267700E46699 /* ViewController.swift */,
-				D6146DC72836267700E46699 /* Main.storyboard */,
+				D6146DC52836267700E46699 /* NoteViewController.swift */,
 				D6146DCA2836267800E46699 /* Assets.xcassets */,
 				D6146DCC2836267800E46699 /* LaunchScreen.storyboard */,
 				D6146DCF2836267800E46699 /* Info.plist */,
@@ -74,6 +83,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6146DD22836267800E46699 /* Build configuration list for PBXNativeTarget "NotesApp" */;
 			buildPhases = (
+				D6146DDD2836294C00E46699 /* ShellScript */,
 				D6146DBA2836267700E46699 /* Sources */,
 				D6146DBB2836267700E46699 /* Frameworks */,
 				D6146DBC2836267700E46699 /* Resources */,
@@ -127,19 +137,42 @@
 			files = (
 				D6146DCE2836267800E46699 /* LaunchScreen.storyboard in Resources */,
 				D6146DCB2836267800E46699 /* Assets.xcassets in Resources */,
-				D6146DC92836267700E46699 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6146DDD2836294C00E46699 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:\"\nexport PATH+=~/\nexport PATH+=\"portable_swiftlint\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6146DBA2836267700E46699 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6146DC62836267700E46699 /* ViewController.swift in Sources */,
+				D6146DDC2836284100E46699 /* Model.swift in Sources */,
+				D6146DC62836267700E46699 /* NoteViewController.swift in Sources */,
+				D6146DDA283627CB00E46699 /* LayoutForList.swift in Sources */,
 				D6146DC22836267700E46699 /* AppDelegate.swift in Sources */,
+				D6146DD8283627A000E46699 /* Layout.swift in Sources */,
+				D6146DD62836277300E46699 /* ListViewController.swift in Sources */,
 				D6146DC42836267700E46699 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +180,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6146DC72836267700E46699 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6146DC82836267700E46699 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6146DCC2836267800E46699 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
