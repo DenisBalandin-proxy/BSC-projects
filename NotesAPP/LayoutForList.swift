@@ -14,6 +14,7 @@ class LayoutForList: UIView {
     let textLabel = UILabel()
     let model = Storage()
     let controller = NoteViewController()
+
     func setCon() -> UIView {
         titleLabel.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 18)
         textLabel.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 14)
@@ -26,6 +27,10 @@ class LayoutForList: UIView {
         self.addSubview(dateLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         textLabel.translatesAutoresizingMaskIntoConstraints = false
+        model.fillStorage()
+        titleLabel.text = model.title
+        textLabel.text = model.text
+        dateLabel.text = model.date
 
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 10),
