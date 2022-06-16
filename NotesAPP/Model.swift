@@ -27,10 +27,10 @@ final class Storage {
         text = defaults.string(forKey: "mainText") ?? ""
         date = defaults.string(forKey: "dateField") ?? ""
     }
-    var emptiness = String()
-    var empty: String {
-        if title == "" && text == "" {
-            emptiness = "Yes"
+    var emptiness = Bool()
+    var empty: Bool {
+        if title.isEmpty && text.isEmpty {
+            emptiness = true
         }
         return emptiness
     }

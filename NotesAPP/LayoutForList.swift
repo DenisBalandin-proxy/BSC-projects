@@ -9,13 +9,22 @@
 import UIKit
 
 class LayoutForList: UIView {
-    let dateLabel = UILabel()
-    let titleLabel = UILabel()
-    let textLabel = UILabel()
-    let model = Storage()
-    let controller = NoteViewController()
-
-    func setCon() -> UIView {
+    private let dateLabel = UILabel()
+    private let titleLabel = UILabel()
+    private let textLabel = UILabel()
+    private let model = Storage()
+    var fromModelToCell: Storage? {
+        didSet {
+            fromModelToCell?.fillStorage()
+            titleLabel.text = fromModelToCell?.title
+            textLabel.text = fromModelToCell?.text
+            dateLabel.text = fromModelToCell?.date
+        }
+    }
+    func listenClouser() {
+        self.fromModelToCell = Storage()
+    }
+    func setConstraintsForCell() -> UIView {
         titleLabel.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 18)
         textLabel.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 14)
         dateLabel.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 10)
@@ -27,11 +36,6 @@ class LayoutForList: UIView {
         self.addSubview(dateLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         textLabel.translatesAutoresizingMaskIntoConstraints = false
-        model.fillStorage()
-        titleLabel.text = model.title
-        textLabel.text = model.text
-        dateLabel.text = model.date
-
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 10),
             titleLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -16),
@@ -44,5 +48,8 @@ class LayoutForList: UIView {
             dateLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -10)
         ])
         return self
+    }
+    func sendToModel() {
+        model.getValues(title1: titleLabel.text ?? "", text1: textLabel.text ?? "", date1: dateLabel.text ?? "")
     }
 }

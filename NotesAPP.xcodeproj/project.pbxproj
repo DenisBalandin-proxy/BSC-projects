@@ -10,7 +10,7 @@
 		D655249127F424AE00A01D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D655249027F424AE00A01D7D /* Assets.xcassets */; };
 		D655249427F424AE00A01D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D655249227F424AE00A01D7D /* LaunchScreen.storyboard */; };
 		D6C53E80283635D10001A26A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E7F283635D10001A26A /* AppDelegate.swift */; };
-		D6C53E82283635F10001A26A /* Lauout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E81283635F10001A26A /* Lauout.swift */; };
+		D6C53E82283635F10001A26A /* LayoutForEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E81283635F10001A26A /* LayoutForEditingView.swift */; };
 		D6C53E84283635FA0001A26A /* LayoutForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E83283635FA0001A26A /* LayoutForList.swift */; };
 		D6C53E86283636030001A26A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E85283636030001A26A /* ListViewController.swift */; };
 		D6C53E882836360A0001A26A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53E872836360A0001A26A /* Model.swift */; };
@@ -24,7 +24,7 @@
 		D655249327F424AE00A01D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D655249527F424AE00A01D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C53E7F283635D10001A26A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6C53E81283635F10001A26A /* Lauout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lauout.swift; sourceTree = "<group>"; };
+		D6C53E81283635F10001A26A /* LayoutForEditingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutForEditingView.swift; sourceTree = "<group>"; };
 		D6C53E83283635FA0001A26A /* LayoutForList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutForList.swift; sourceTree = "<group>"; };
 		D6C53E85283636030001A26A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D6C53E872836360A0001A26A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			children = (
 				D655249027F424AE00A01D7D /* Assets.xcassets */,
 				D6C53E7F283635D10001A26A /* AppDelegate.swift */,
-				D6C53E81283635F10001A26A /* Lauout.swift */,
+				D6C53E81283635F10001A26A /* LayoutForEditingView.swift */,
 				D6C53E83283635FA0001A26A /* LayoutForList.swift */,
 				D6C53E872836360A0001A26A /* Model.swift */,
 				D6C53E89283636110001A26A /* NoteViewController.swift */,
@@ -175,7 +175,7 @@
 				D6C53E84283635FA0001A26A /* LayoutForList.swift in Sources */,
 				D6C53E86283636030001A26A /* ListViewController.swift in Sources */,
 				D6C53E8A283636110001A26A /* NoteViewController.swift in Sources */,
-				D6C53E82283635F10001A26A /* Lauout.swift in Sources */,
+				D6C53E82283635F10001A26A /* LayoutForEditingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
