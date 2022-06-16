@@ -29,7 +29,7 @@ class ListViewController: UIViewController {
         let image = UIImage(named: "createNewNote")
         button.setImage(image, for: .normal)
         button.layer.masksToBounds = true
-        button.addTarget(ListViewController.self, action: #selector(createNote), for: .touchUpInside)
+        button.addTarget(self, action: #selector(createNote), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
